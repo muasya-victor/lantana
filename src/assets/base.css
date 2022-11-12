@@ -1,0 +1,62 @@
+.global-container {
+  @apply p-2
+}
+.stacked{
+  @apply flex flex-col gap-4
+}
+.linear{
+  @apply grid gap-4
+}
+.linear-flex{
+  @apply flex gap-2 items-center
+}
+.linear-two {
+  @apply grid-cols-2
+}
+.linear-three {
+  @apply grid-cols-3
+}
+.btn {
+  @apply flex items-center w-fit gap-2 rounded py-1 px-4  mt-1 mb-1 font-semibold
+}
+.btn_pill {
+  @apply flex items-center w-fit gap-2 rounded-full py-1 px-4  mt-1 mb-1 font-semibold text-white
+}
+.primary {
+  @apply bg-blue-600 text-white
+}
+.secondary {
+  @apply bg-gray-400 text-white
+}
+.info {
+  @apply bg-gray-800 text-white
+}
+.contrast {
+  @apply bg-gray-50 text-black border
+}
+.destructive {
+  @apply bg-red-600 text-white
+}
+
+.active,
+router-link-exact-active{
+}
+
+.header {
+  @apply font-bold
+}
+
+select {
+  @apply w-full h-9 bg-gray-100 border border-gray-400 formkit-invalid:border-red-500 rounded-lg mb-1 overflow-hidden
+}
+
+option{
+  @apply bg-gray-50
+}
+label {
+  @apply block mb-1 font-bold text-sm formkit-invalid:text-red-500
+}
+
+.text_light {
+  @apply hover:text-blue-600
+}
